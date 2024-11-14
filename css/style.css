@@ -501,7 +501,7 @@ section {
 /* weekly promotions */
 
 .promotion {
-  background: url(/assets/background.jpg) no-repeat;
+  background: url(./assets/background.jpg) no-repeat;
   background-size: cover !important;
   background-position: center !important;
   filter: blur(10);
@@ -648,7 +648,7 @@ section {
 /* parallax */
 
 .parallax {
-  background: url(/assets/purple_scenery.jpg) no-repeat;
+  background: url(./assets/purple_scenery.jpg) no-repeat;
   min-height: 100vh;
   background-attachment: fixed;
   background-size: cover !important;
