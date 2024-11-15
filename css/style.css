@@ -334,7 +334,7 @@ section {
 /* banner */
 
 .banner {
-  background: url(../images/banner-bg.jpg);
+  background: url(./images/banner-bg.jpg);
   background-size: cover !important;
   background-position: center !important;
 }
