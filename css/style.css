@@ -501,10 +501,19 @@ section {
 /* weekly promotions */
 
 .promotion {
-  background: url(../assets/background-weekly-promotion.jpg) no-repeat;
+  background: url(../assets/promotion_background.jpg) no-repeat;
   background-size: cover !important;
   background-position: center !important;
   filter: blur(10);
+
+
+  /* background: url(../assets/purple_scenery.jpg) no-repeat; */
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover !important;
+  background-position: center !important;
+  z-index: 0;
+  position: relative;
 
 }
 
