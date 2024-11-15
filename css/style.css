@@ -243,8 +243,8 @@ section {
 
 .home .slide{
   min-height: 100vh;
-  background-size: cover ;
-  background-position: center ;
+  background-size: cover !important;
+  background-position: center !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -334,9 +334,9 @@ section {
 /* banner */
 
 .banner {
-  background: url(./images/banner-bg.jpg);
-  background-size: cover ;
-  background-position: center ;
+  background: url(../images/banner-bg.jpg);
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 .banner img {
@@ -648,7 +648,7 @@ section {
 /* parallax */
 
 .parallax {
-  background: url(../assets/purple_scenery.jpg) no-repeat;
+  background: url(./assets/purple_scenery.jpg) no-repeat;
   min-height: 100vh;
   background-attachment: fixed;
   background-size: cover !important;
