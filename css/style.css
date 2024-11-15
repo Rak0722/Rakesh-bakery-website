@@ -243,8 +243,8 @@ section {
 
 .home .slide{
   min-height: 100vh;
-  background-size: cover ;
-  background-position: center ;
+  background-size: cover !important;
+  background-position: center !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -335,8 +335,8 @@ section {
 
 .banner {
   background: url(../images/banner-bg.jpg);
-  background-size: cover ;
-  background-position: center;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 .banner img {
@@ -501,9 +501,9 @@ section {
 /* weekly promotions */
 
 .promotion {
-  background: url(../assets/background-weekly-promotion.jpg) no-repeat;
-  background-size: cover ;
-  background-position: center; 
+  background: url(./assets/background.jpg) no-repeat;
+  background-size: cover !important;
+  background-position: center !important;
   filter: blur(10);
 
 }
@@ -651,8 +651,8 @@ section {
   background: url(../assets/purple_scenery.jpg) no-repeat;
   min-height: 100vh;
   background-attachment: fixed;
-  background-size: cover;
-  background-position: center ;
+  background-size: cover !important;
+  background-position: center !important;
   z-index: 0;
   position: relative;
 }
