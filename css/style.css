@@ -501,7 +501,7 @@ section {
 /* weekly promotions */
 
 .promotion {
-  background: url(../assets/background.jpg) no-repeat;
+  background: url(../assets/background-weekly-promotion.jpg) no-repeat;
   background-size: cover ;
   background-position: center; 
   filter: blur(10);
