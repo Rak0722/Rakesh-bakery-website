@@ -243,8 +243,8 @@ section {
 
 .home .slide{
   min-height: 100vh;
-  background-size: cover !important;
-  background-position: center !important;
+  background-size: cover ;
+  background-position: center ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -335,8 +335,8 @@ section {
 
 .banner {
   background: url(../images/banner-bg.jpg);
-  background-size: cover !important;
-  background-position: center !important;
+  background-size: cover ;
+  background-position: center;
 }
 
 .banner img {
@@ -501,9 +501,9 @@ section {
 /* weekly promotions */
 
 .promotion {
-  background: url(./assets/background.jpg) no-repeat;
-  background-size: cover !important;
-  background-position: center !important;
+  background: url(../assets/background.jpg) no-repeat;
+  background-size: cover ;
+  background-position: center; 
   filter: blur(10);
 
 }
