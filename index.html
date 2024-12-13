@@ -503,30 +503,31 @@
   
           <form action="https://formsubmit.co/rakesh.ramalingam22@gmail.com" method="POST" >
             <div class="inputBox">
-              <input type="text" placeholder="first name" />
-              <input type="text" placeholder="last name" />
+              <input type="text" name = "fname" placeholder="first name" />
+              <input type="text" name = "lname" placeholder="last name" />
             </div>
   
             <div class="inputBox">
-              <input type="email" placeholder="email address" />
-              <input type="tel" id="phone" placeholder="mobile" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+              <input type="email" name = "email" placeholder="email address" />
+              <input type="tel" id="phone" placeholder="mobile" name="phone">
+              <!-- pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" -->
             </div>
   
             <div class="inputBox">
-              <input type="textarea" placeholder="food name" />
+              <input type="textarea" name = "food" placeholder="food name" />
               <!-- <textarea name=""  placeholder="food name"></textarea> -->
               
-              <input type="number" placeholder="how much" />
+              <input type="number" name = "howmuch" placeholder="how much" />
             </div>
   
             <textarea
               placeholder="your address"
-              name=""
+              name="address"
               id=""
               cols="20"
               rows="10"
             ></textarea>
-            <input type="submit" value="order now" class="btn2" />
+            <input type="submit" name = "btn-submit" value="order now" class="btn2" />
           </form>
         </div>
       </section>
