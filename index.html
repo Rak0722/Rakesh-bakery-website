@@ -501,23 +501,23 @@
             <img src="./assets/bread1.jpg" alt="" />
           </div>
   
-           <form action="./css/process.php" method="POST" >
-            <div class="inputBox">
-              <input type="text" name = "firstname" placeholder="first name" />
-              <input type="text" name = "lastname" placeholder="last name" />
+           <form action="process.php" method="POST" >
+            <div class="inputBox ">
+              <input type="text" name = "firstname" placeholder="first name" class="form-control" />
+              <input type="text" name = "lastname" placeholder="last name" class="form-control" />
             </div>
   
             <div class="inputBox">
-              <input type="email" name = "email" placeholder="email address" />
-              <input type="tel" id="phone" placeholder="mobile" name="phone">
+              <input type="email" name = "email" placeholder="email address" class="form-control" />
+              <input type="tel" id="phone" placeholder="mobile" name="phone_no" class="form-control" />
               <!-- pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" -->
             </div>
   
             <div class="inputBox">
-              <input type="textarea" name = "food" placeholder="food name" />
+              <input type="textarea" name = "food" placeholder="food name" class="form-control" />
               <!-- <textarea name=""  placeholder="food name"></textarea> -->
               
-              <input type="number" name = "howmuch" placeholder="how much" />
+              <input type="number" name = "how_much" placeholder="how much" class="form-control" />
             </div>
    
             <textarea
@@ -527,7 +527,7 @@
               cols="20"
               rows="10"
             ></textarea>
-            <input type="submit" name = "btn-submit" value="order now" class="btn2" />
+            <input type="submit" name = "btn-submit" value="order now" class="btn2" class="form-control" />
           </form>
         </div>
       </section>
